@@ -16,6 +16,7 @@ import React, { useState } from 'react';
                 language: "English"
             }
         });
+<script src="https://assets.adobedtm.com/21b53c73144b/bd73161192e0/launch-6dd8d4d01c07-development.min.js" async></script>
 
 const Login = ({ setIsLogin }) => {
   const [email, setemail] = useState('');
