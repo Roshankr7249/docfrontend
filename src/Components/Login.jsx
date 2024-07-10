@@ -1,5 +1,22 @@
 import React, { useState } from 'react';
 
+ window.adobeDataLayer=window.adobeDataLayer || [];
+        window.adobeDataLayer.push({
+            event: "landed",
+            eventInfo: {
+                eventName: "landed"
+            },
+            custData: {
+                custId: "001",
+                loginStatus: "logged in"
+            },
+            page: {
+                pageName: "Home",
+                pageType: "Home",
+                language: "English"
+            }
+        });
+
 const Login = ({ setIsLogin }) => {
   const [email, setemail] = useState('');
   const [password, setPassword] = useState('');
